@@ -17,7 +17,6 @@ def process(x):
 
     print(model.predict(x))
 
-process(np.random.random((512, 512)))
 s = socket.socket(socket.AF_INET,
 	              socket.SOCK_STREAM)
 
